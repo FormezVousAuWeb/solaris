@@ -1,0 +1,44 @@
+SOLARIS — Mise en ligne et installation (Android / S24 Ultra)
+
+POURQUOI C'EST PRIVE MÊME SUR UN SITE PUBLIC
+Les fichiers ici ne contiennent AUCUNE de tes donnees : pas de soldes, pas de charges.
+Tout ce que tu saisiras (soldes, depenses, rentrees) est enregistre UNIQUEMENT dans
+la memoire de ton telephone. Le site n'est que la coquille vide de l'application.
+C'est le meme principe qu'une application de banque : le site est public, tes
+donnees sont derriere... ton telephone. (Tranquillite supplementaire : verrouille
+l'app installee avec Samsung Secure Folder ou "Verrouiller les applications".)
+
+A. MISE EN LIGNE AVEC GITHUB (depuis ton PC, 10 minutes, gratuit)
+1. Va sur github.com et cree un compte (pseudo + e-mail + mot de passe).
+2. Connecte : clique le "+" en haut a droite -> "New repository".
+   - Name : solaris
+   - Laisse "Public" (obligatoire pour l'hebergement gratuit - sans risque, cf. encadre)
+   - "Create repository".
+3. Sur la page suivante : clique "uploading an existing file".
+4. Glisse les 5 fichiers du dossier : index.html, manifest.json, sw.js,
+   icon-192.png, icon-512.png (pas le LISEZ-MOI).
+5. "Commit changes".
+6. "Settings" du depot -> "Pages" a gauche -> Branch : main / (root) -> Save.
+7. Attends 1-2 minutes, recharge : ton adresse s'affiche :
+   https://TON-PSEUDO.github.io/solaris/
+   Note-la : c'est l'adresse de ton application.
+
+B. INSTALLATION SUR LE S24 ULTRA
+1. Ouvre Chrome sur le telephone.
+2. Tape l'adresse https://TON-PSEUDO.github.io/solaris/ dans la barre d'adresse.
+   (Tu ne vas PAS sur github.com depuis le telephone : github ne sert qu'a heberger.
+   Ton telephone visite ton SITE a toi.)
+3. Menu Chrome : les trois points en haut a droite -> "Installer l'application"
+   (ou "Ajouter a l'ecran d'accueil") -> Confirmer.
+4. L'icone Solaris apparait sur ton ecran d'accueil : plein ecran, marche meme sans reseau.
+
+C. PREMIERE UTILISATION (5 minutes, une seule fois)
+L'app s'ouvre vierge, c'est normal : tes donnees de depart ne sont pas dans le code,
+c'est ce qui la rend confidentielle. Dans "Comptes & flux" :
+- les deux soldes du jour et les decouverts autorises (500 perso, 0 pro)
+- les charges fixes, la CAF (recurrence "Prime CAF", prochaine revision le 5 du mois suivant)
+- les rentrees prevues (GFS, Central Jardin, CCI...)
+Ensuite, 30 secondes par jour : mets a jour les soldes, saisis depenses et ventes.
+
+PRECAUTION : ne pas faire "Effacer les donnees de navigation" dans Chrome, cela
+effacerait tes donnees de l'app. Une sauvegarde exportable arrive en V2.

@@ -1,0 +1,32 @@
+{
+  "name": "Solaris — La météo d'une trésorerie complice",
+  "short_name": "Solaris",
+  "description": "Budget freelance : disponible réaliste du jour, projection de trésorerie 90 jours, virements entre comptes.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F9F7F2",
+  "theme_color": "#3C2449",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
